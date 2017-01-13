@@ -1,1 +1,1 @@
-print "everything deleted 2";
+print "v1.0001";
