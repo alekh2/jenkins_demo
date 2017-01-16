@@ -1,1 +1,1 @@
-print "all deleted again";
+print "1.001";
