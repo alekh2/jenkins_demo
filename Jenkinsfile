@@ -3,7 +3,6 @@ echo 'hello world!!';
 node{
     stage('Fetch'){
         checkout scm;
-        python seventh.py;
     }
     stage('Test') {
         echo 'Testing';
