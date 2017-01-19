@@ -6,7 +6,7 @@ node{
     }
     stage('Test') {
         echo 'Testing';
-	python seventh.py;
+	sh 'python seventh.py';
      	assert true;
     }
  
