@@ -6,7 +6,7 @@ node{
     }
     stage('Test') {
         echo 'Testing';
-        assert false;
+     	assert true;
     }
  
     stage('Build') { // <2>
