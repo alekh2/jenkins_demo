@@ -3,8 +3,7 @@ echo 'hello world!!';
 node{
 	
     stage('Fetch'){
-	checkout scm;
-	echo ${GIT_COMMIT};        
+	checkout scm;        
     }
     stage('Test') {
         echo 'Testing';
