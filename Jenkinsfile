@@ -3,7 +3,7 @@ echo 'hello world!!';
 node{
 	
     stage('Fetch'){
-        
+	printenv;        
     }
     stage('Test') {
         echo 'Testing';
