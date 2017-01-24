@@ -3,7 +3,8 @@ echo 'hello world!!';
 node{
 	
     stage('Fetch'){
-	checkout scm;        
+	checkout scm;
+	sh 'printenv';        
     }
     stage('Test') {
         echo 'Testing';
