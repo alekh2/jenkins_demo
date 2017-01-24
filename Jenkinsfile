@@ -1,8 +1,9 @@
 echo 'hello world!!';
 
 node{
+	
     stage('Fetch'){
-        checkout scm;
+        
     }
     stage('Test') {
         echo 'Testing';
